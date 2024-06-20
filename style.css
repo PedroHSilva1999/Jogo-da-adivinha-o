@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite NG Modern", cursive;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff800;
+}
+
+.container{
+    width: 430px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
+}
+
+.container h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 25px;
+    border-bottom: 1px solid #ccc
+}
+
+.container .conteudo {
+    margin: 25px 25px 35px;
+}
+
+.container .inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inputs input {
+    height: 57px;
+    width: 56px;
+    margin: 4px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    background-color: #f8dabd;
+
+    border-radius: 5px;
+    border: 1px solid red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.inputs input:first-child {
+    margin-left: 0px;
+}
+
+.conteudo .details {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.conteudo .resetar{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 15px 0;
+    cursor: pointer;
+    background-color: #ff8000;
+    
+}
+.input-digitacao{
+    z-index: -999;
+    position: absolute;
+    opacity: 0;
+
+}
+
